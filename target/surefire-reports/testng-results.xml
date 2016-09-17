@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample.PetClinicTest" duration-ms="145319" started-at="2016-09-17T12:14:41Z" finished-at="2016-09-17T12:17:07Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="145319" started-at="2016-09-17T12:14:41Z" finished-at="2016-09-17T12:17:07Z">
+      <class name="Sample.PetClinicTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Sample.PetClinicTest@6442b0a6]" name="beforeTest" is-config="true" duration-ms="60590" started-at="2016-09-17T17:44:41Z" finished-at="2016-09-17T17:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:Sample.PetClinicTest@6442b0a6]" name="testEasy" duration-ms="83897" started-at="2016-09-17T17:45:42Z" finished-at="2016-09-17T17:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Sample.PetClinicTest@6442b0a6]" name="afterTest" is-config="true" duration-ms="717" started-at="2016-09-17T17:47:06Z" finished-at="2016-09-17T17:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Sample.PetClinicTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Sample.PetClinicTest -->
+</testng-results>
