@@ -1,27 +1,31 @@
 package Sample;
 
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class PetClinicTest {
 
- private WebDriver  driver;
+ private RemoteWebDriver  driver;
 	
 
   @BeforeTest
-   public void beforeTest() {
+   public void beforeTest() throws MalformedURLException {
  
- 	System.setProperty("webdriver.chrome.driver", "C:\\Tools\\chromedriver.exe"); 
-	driver = new ChromeDriver();
+ 	//System.setProperty("webdriver.chrome.driver", "C:\\Tools\\chromedriver.exe"); 
+	//driver = new ChromeDriver();
 	
    //setup with gecko driver
    //System.setProperty("webdriver.gecko.driver", "C:\\Tools\\chromedriver.exe");   
-	  
    //System.setProperty("webdriver.gecko.driver", "/var/lib/jenkins/workspace/Petclininc/geckodriver"); 
    
 
@@ -31,8 +35,8 @@ public class PetClinicTest {
   DesiredCapabilities capability = DesiredCapabilities.firefox();  
   driver = new RemoteWebDriver(new URL("http://192.168.1.101:4445//wd/hub"), capability);
     */
-	
-   
+	  DesiredCapabilities capability = DesiredCapabilities.chrome();	
+	  driver = new RemoteWebDriver(new URL("http://192.168.1.100:4444//wd/hub"), capability);
    }
   
 	@Test
@@ -40,7 +44,7 @@ public class PetClinicTest {
   
   {   
 		 
-		driver.get("http://192.168.1.102:8082/petclinic/");
+		driver.get("http://192.168.1.100:8082/petclinic/");
 		//driver.manage().window().maximize();	
 		
 		

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample.PetClinicTest" duration-ms="145319" started-at="2016-09-17T12:14:41Z" finished-at="2016-09-17T12:17:07Z">
+  <suite name="Sample.PetClinicTest" duration-ms="223020" started-at="2016-09-17T15:15:34Z" finished-at="2016-09-17T15:19:17Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="145319" started-at="2016-09-17T12:14:41Z" finished-at="2016-09-17T12:17:07Z">
+    <test name="Command line test" duration-ms="223020" started-at="2016-09-17T15:15:34Z" finished-at="2016-09-17T15:19:17Z">
       <class name="Sample.PetClinicTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Sample.PetClinicTest@6442b0a6]" name="beforeTest" is-config="true" duration-ms="60590" started-at="2016-09-17T17:44:41Z" finished-at="2016-09-17T17:45:42Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Sample.PetClinicTest@67b64c45]" name="beforeTest" is-config="true" duration-ms="74580" started-at="2016-09-17T20:45:34Z" finished-at="2016-09-17T20:46:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:Sample.PetClinicTest@6442b0a6]" name="testEasy" duration-ms="83897" started-at="2016-09-17T17:45:42Z" finished-at="2016-09-17T17:47:06Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:Sample.PetClinicTest@67b64c45]" name="testEasy" duration-ms="146606" started-at="2016-09-17T20:46:48Z" finished-at="2016-09-17T20:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Sample.PetClinicTest@6442b0a6]" name="afterTest" is-config="true" duration-ms="717" started-at="2016-09-17T17:47:06Z" finished-at="2016-09-17T17:47:07Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Sample.PetClinicTest@67b64c45]" name="afterTest" is-config="true" duration-ms="1591" started-at="2016-09-17T20:49:15Z" finished-at="2016-09-17T20:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
