@@ -36,7 +36,7 @@ public class PetClinicTest {
   driver = new RemoteWebDriver(new URL("http://192.168.1.101:4445//wd/hub"), capability);
     */
 	  DesiredCapabilities capability = DesiredCapabilities.chrome();	
-	  driver = new RemoteWebDriver(new URL("http://192.168.1.100:4444//wd/hub"), capability);
+	  driver = new RemoteWebDriver(new URL("http://54.69.110.127:8083//wd/hub"), capability);
    }
   
 	@Test
@@ -44,7 +44,7 @@ public class PetClinicTest {
   
   {   
 		 
-		driver.get("http://192.168.1.100:8082/petclinic/");
+		driver.get("http://192.168.1.102:8082/petclinic/");
 		//driver.manage().window().maximize();	
 		
 		
