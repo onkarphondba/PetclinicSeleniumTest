@@ -33,7 +33,7 @@ public class PetClinicTest {
       
   //setup with seleniium Grid
   DesiredCapabilities capability = DesiredCapabilities.firefox();  
-  driver = new RemoteWebDriver(new URL("http://172.17.0.1:4445//wd/hub"), capability);
+  driver = new RemoteWebDriver(new URL("http://52.34.119.145:4445//wd/hub"), capability);
   /*
   DesiredCapabilities capability = DesiredCapabilities.chrome();	
   driver = new RemoteWebDriver(new URL("http://172.31.32.160:4444//wd/hub"), capability);
